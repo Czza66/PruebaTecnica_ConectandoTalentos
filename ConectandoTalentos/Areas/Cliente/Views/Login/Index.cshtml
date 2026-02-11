@@ -1,0 +1,56 @@
+﻿@using ConectandoTalentosSolucion.Models
+@using ConectandoTalentosSolucion.Models.ViewModels.Login
+@model AccesoVM
+
+
+@{
+    ViewData["Title"] = "Iniciar Sesión";
+}
+
+<div class="row">
+    <div class="col-md-6">
+        @if (TempData["Failed"] != null)
+        {
+            <div class="alert alert-danger text-center">
+                @TempData["Failed"]
+            </div>
+        }
+        @if (TempData["Success"] != null)
+        {
+            <div class="alert alert-success text-center">
+                @TempData["Success"]
+            </div>
+        }
+        <section>
+            <form asp-controller="Login" asp-action="Acceder" method="post">
+                <h3 class=" mb-4">
+                    Inicia sesión en nuestro sistema
+                </h3>
+                <hr />
+
+                <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                    <label asp-for="Email">Correo</label>
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                    <label asp-for="Password">Contraseña</label>
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+
+                <p class="text-center">
+                    <a asp-controller="Login" asp-action="Registro" class="text-decoration-none text-muted">Registrate</a><br />
+                    <a asp-controller="Login" asp-action="ResetPassword" class="text-decoration-none text-muted">¿Olvidaste tu contraseña?</a>
+                </p>
+
+                <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">
+                    Inicia Sesión
+                </button>
+            </form>
+        </section>
+    </div>
+</div>

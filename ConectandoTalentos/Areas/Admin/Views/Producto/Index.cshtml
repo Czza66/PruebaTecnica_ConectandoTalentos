@@ -1,0 +1,66 @@
+﻿@model IEnumerable<ConectandoTalentosSolucion.Models.ViewModels.Crud.Producto.ProductoVM>
+@using System.Globalization
+@{
+    ViewData["Title"] = "Lista de Productos";
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-8">
+            <h2 class="text-primary"> Lista de productos</h2>
+        </div>
+        <div class="col-4 text-right">
+            <a asp-action="Create" class="btn btn-primary" style="background:#1B75BB ; color:white;border:none"><i class="bi bi-plus-circle-fill"></i>&nbsp; Agregar Producto</a>
+        </div>
+    </div>
+    <br />
+    <br />
+    @if (TempData["RespuestaOperacion"] != null)
+    {
+        <div class="alert alert-success text-center">
+            @TempData["RespuestaOperacion"]
+        </div>
+    }
+    <div class="table-responsive">
+        <table id="TblContenido" class="table table-striped table-bordered" style="width:100%">
+            <thead>
+                <tr>
+                    <th> Imagen </th>
+                    <th> Categoria </th>
+                    <th> Nombre </th>
+                    <th> Cantidad </th>
+                    <th> Valor </th>
+                    <th> Orden </th>
+                    <th> ¿Esta Activo? </th>
+                    <th> Acciones </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var ct in Model)
+                {
+                    <tr>
+                        <td>
+                            <img src="@ct.imgProducto"
+                                 alt="Imagen categoría"
+                                 style="width:60px; height:60px; object-fit:cover; border-radius:6px;" />
+                        </td>
+                        <td>@ct.Categoria</td>
+                        <td>@ct.nombre</td>
+                        <td>@ct.cantidad</td>
+                        <td>@ct.valor.ToString("C0", new CultureInfo("es-CO"))</td>
+                        <td>@ct.orden</td>
+                        <td>@(ct.activo ? "Si" : "No")</td>
+                        <td>
+                            <a asp-route-id="@ct.IdProductoEncriptado" asp-action="Edit" class="btn btn-primary text-white">
+                                <i class="bi bi-pencil-square"></i> Editar
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+@section Scripts {
+    <script src="~/js/Maestros/DataTableGenerico.js"></script>
+}

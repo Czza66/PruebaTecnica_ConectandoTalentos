@@ -1,0 +1,55 @@
+﻿@model ConectandoTalentosSolucion.Models.ViewModels.HomeVM.HomeIndexVM
+
+@{
+    ViewData["Title"] = "ProPlay Online";
+}
+
+<div class="text-center">
+    <partial name="_VistaSliderInicioClientes" />
+</div>
+
+<div class="container mt-5">
+    <div class="text-center mb-4">
+        <h3 class="fw-bold">Nuestras categorías de productos</h3>
+        <p class="text-muted mb-0">Explora lo mejor para tu setup gamer 🎮</p>
+    </div>
+
+    @if (Model?.Categorias == null || !Model.Categorias.Any())
+    {
+        <div class="alert alert-info text-center">
+            Aún no hay categorías disponibles.
+        </div>
+    }
+    else
+    {
+        <div class="row g-4">
+            @foreach (var c in Model.Categorias)
+            {
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a asp-controller="Catalogo"
+                       asp-action="Index"
+                       asp-route-categorias="@c.Id"
+                       class="text-decoration-none text-reset d-block h-100">
+
+                        <div class="card border-0 shadow-sm h-100 category-card">
+                            <img src="@c.ImgCategoria" class="card-img-top category-img" alt="@c.Nombre">
+
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold text-dark mb-2">@c.Nombre</h5>
+                                <p class="card-text text-muted mb-0 clamp-2">
+                                    @Html.Raw(c.Descripcion)
+                                </p>
+                            </div>
+
+                            <div class="card-footer bg-white border-0 pt-0">
+                                <span class="btn btn-outline-dark w-100 rounded-pill">
+                                    Ver productos
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            }
+        </div>
+    }
+</div>

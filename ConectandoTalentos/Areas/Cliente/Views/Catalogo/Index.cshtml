@@ -1,0 +1,102 @@
+﻿@model ConectandoTalentosSolucion.Models.ViewModels.CatalogoVM.CatalogoVM
+@using System.Globalization
+
+@{
+    ViewData["Title"] = "Catálogo de productos";
+}
+
+<div class="container-fluid px-4 px-md-5 mt-4">
+    <div class="row g-4">
+
+        <aside class="col-12 col-md-3 col-lg-2">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                    <h5 class="fw-bold mb-3 text-primary">Categorías</h5>
+
+                    <form method="get" asp-controller="Catalogo" asp-action="Index">
+                        <div class="d-flex flex-column gap-2">
+                            @foreach (var cat in Model.Categorias)
+                            {
+                                <div class="form-check">
+                                    <input class="form-check-input"
+                                           type="checkbox"
+                                           name="categorias"
+                                           value="@cat.Id"
+                                           id="cat_@cat.Id"
+                                    @(cat.Seleccionada ? "checked" : "") />
+
+                                    <label class="form-check-label" for="cat_@cat.Id">
+                                        @cat.Nombre
+                                    </label>
+                                </div>
+                            }
+                        </div>
+
+                        <div class="mt-3 d-grid gap-2">
+                            <button type="submit" class="btn btn-dark rounded-pill">
+                                Filtrar
+                            </button>
+
+                            <a asp-controller="Catalogo" asp-action="Index"
+                               class="btn btn-outline-secondary rounded-pill">
+                                Ver todo
+                            </a>
+                        </div>
+
+                        <p class="text-muted small mt-3 mb-0">
+                            Si no marcas ninguna categoría, verás todos los productos.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </aside>
+
+        <section class="col-12 col-md-9 col-lg-10">
+            <div class="d-flex align-items-center justify-content-between mb-3">
+                <div>
+                    <h4 class="fw-bold mb-0 text-primary">Productos disponibles</h4>
+                    <small class="text-muted">@Model.Productos.Count producto(s)</small>
+                </div>
+            </div>
+
+            @if (Model.Productos == null || !Model.Productos.Any())
+            {
+                <div class="alert alert-warning">
+                    No hay productos para las categorías seleccionadas.
+                </div>
+            }
+            else
+            {
+                <div class="row g-4">
+                    @foreach (var p in Model.Productos)
+                    {
+                        <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                            <div class="card border-0 shadow-sm h-100 product-card">
+                                <img src="@(string.IsNullOrWhiteSpace(p.ImagenUrl) ? "/img/productos/ProductoPlaceholder.png" : p.ImagenUrl)"
+                                     class="card-img-top product-img"
+                                     alt="@p.Nombre" /> 
+
+                                <div class="card-body">
+                                    <h6 class="fw-bold mb-2">@p.Nombre</h6>
+
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <span class="fw-bold">@p.Precio.ToString("C0", new CultureInfo("es-CO"))</span>
+                                        <span class="badge bg-secondary">Stock: @p.Cantidad</span>
+                                    </div>
+                                </div>
+
+                                <div class="card-footer bg-white border-0 pt-0">
+                                    <a class="btn btn-outline-dark w-100 rounded-pill"
+                                       href="#">
+                                        Ver detalle
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            }
+        </section>
+
+    </div>
+</div>

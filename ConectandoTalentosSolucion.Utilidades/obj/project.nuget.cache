@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cgN+gpV1RFI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentosSolucion.Utilidades\\ConectandoTalentosSolucion.Utilidades.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.dataprotection.abstractions\\10.0.3\\microsoft.aspnetcore.dataprotection.abstractions.10.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

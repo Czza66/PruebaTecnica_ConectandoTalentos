@@ -1,0 +1,12 @@
+C:\Users\PC\Documents\DESARROLLOS\ConectandoTalentosSolucion\ConectandoTalentosSolucion.Models\bin\Debug\net8.0\ConectandoTalentosSolucion.Models.deps.json
+C:\Users\PC\Documents\DESARROLLOS\ConectandoTalentosSolucion\ConectandoTalentosSolucion.Models\bin\Debug\net8.0\ConectandoTalentosSolucion.Models.dll
+C:\Users\PC\Documents\DESARROLLOS\ConectandoTalentosSolucion\ConectandoTalentosSolucion.Models\bin\Debug\net8.0\ConectandoTalentosSolucion.Models.pdb
+C:\Users\PC\Documents\DESARROLLOS\ConectandoTalentosSolucion\ConectandoTalentosSolucion.Models\obj\Debug\net8.0\ConectandoTalentosSolucion.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\DESARROLLOS\ConectandoTalentosSolucion\ConectandoTalentosSolucion.Models\obj\Debug\net8.0\ConectandoTalentosSolucion.Models.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\DESARROLLOS\ConectandoTalentosSolucion\ConectandoTalentosSolucion.Models\obj\Debug\net8.0\ConectandoTalentosSolucion.Models.AssemblyInfo.cs
+C:\Users\PC\Documents\DESARROLLOS\ConectandoTalentosSolucion\ConectandoTalentosSolucion.Models\obj\Debug\net8.0\ConectandoTalentosSolucion.Models.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\DESARROLLOS\ConectandoTalentosSolucion\ConectandoTalentosSolucion.Models\obj\Debug\net8.0\ConectandoTalentosSolucion.Models.dll
+C:\Users\PC\Documents\DESARROLLOS\ConectandoTalentosSolucion\ConectandoTalentosSolucion.Models\obj\Debug\net8.0\refint\ConectandoTalentosSolucion.Models.dll
+C:\Users\PC\Documents\DESARROLLOS\ConectandoTalentosSolucion\ConectandoTalentosSolucion.Models\obj\Debug\net8.0\ConectandoTalentosSolucion.Models.pdb
+C:\Users\PC\Documents\DESARROLLOS\ConectandoTalentosSolucion\ConectandoTalentosSolucion.Models\obj\Debug\net8.0\ref\ConectandoTalentosSolucion.Models.dll
+C:\Users\PC\Documents\DESARROLLOS\ConectandoTalentosSolucion\ConectandoTalentosSolucion.Models\obj\Debug\net8.0\ConectandoTalentosSolucion.Models.csproj.AssemblyReference.cache

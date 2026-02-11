@@ -1,0 +1,337 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ConectandoTalentos.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ConectandoTalentos.js1grztpyu.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\img\\SliderInicialClientes\\Imagen1.jpg",
+      "PackagePath": "staticwebassets\\img\\SliderInicialClientes\\Imagen1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\img\\SliderInicialClientes\\Imagen3.jpg",
+      "PackagePath": "staticwebassets\\img\\SliderInicialClientes\\Imagen3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\img\\SliderInicialClientes\\Imagewn2.jpg",
+      "PackagePath": "staticwebassets\\img\\SliderInicialClientes\\Imagewn2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\img\\categoria\\39699305-c604-4520-99ff-87bd78dd3e59.jpg",
+      "PackagePath": "staticwebassets\\img\\categoria\\39699305-c604-4520-99ff-87bd78dd3e59.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\img\\categoria\\7b78c637-4d97-4f22-8a48-733955bd668d.jpg",
+      "PackagePath": "staticwebassets\\img\\categoria\\7b78c637-4d97-4f22-8a48-733955bd668d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\img\\categoria\\SliderPlaceholder.png",
+      "PackagePath": "staticwebassets\\img\\categoria\\SliderPlaceholder.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\img\\categoria\\f683e768-fa10-4211-85cd-29a3bf61f277.jpg",
+      "PackagePath": "staticwebassets\\img\\categoria\\f683e768-fa10-4211-85cd-29a3bf61f277.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\img\\categoria\\fa4470fd-f3a0-4a13-bc19-ab6e9e5d3054.jpeg",
+      "PackagePath": "staticwebassets\\img\\categoria\\fa4470fd-f3a0-4a13-bc19-ab6e9e5d3054.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\img\\producto\\43a8cfd6-f79e-4f55-bf05-f529762da50a.png",
+      "PackagePath": "staticwebassets\\img\\producto\\43a8cfd6-f79e-4f55-bf05-f529762da50a.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\img\\producto\\69aed146-bc22-4c1f-a1b6-256465ee89e9.jpeg",
+      "PackagePath": "staticwebassets\\img\\producto\\69aed146-bc22-4c1f-a1b6-256465ee89e9.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\img\\producto\\74fd626f-b47a-4221-8c5c-1a0d1fdd48b2.jpeg",
+      "PackagePath": "staticwebassets\\img\\producto\\74fd626f-b47a-4221-8c5c-1a0d1fdd48b2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\img\\producto\\99938ba5-81fb-4bfe-beba-1ab6f94d4ba4.png",
+      "PackagePath": "staticwebassets\\img\\producto\\99938ba5-81fb-4bfe-beba-1ab6f94d4ba4.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\img\\producto\\ProductoPlaceholder.png",
+      "PackagePath": "staticwebassets\\img\\producto\\ProductoPlaceholder.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\img\\producto\\d4b681ee-0282-4953-876d-6a55471d2ab3.jpg",
+      "PackagePath": "staticwebassets\\img\\producto\\d4b681ee-0282-4953-876d-6a55471d2ab3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\img\\producto\\f4bb84c2-6c1f-4f6e-ac5a-b197d819f3de.jpeg",
+      "PackagePath": "staticwebassets\\img\\producto\\f4bb84c2-6c1f-4f6e-ac5a-b197d819f3de.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\img\\producto\\f7953941-7a54-4b98-8727-246896f9a6fb.jpeg",
+      "PackagePath": "staticwebassets\\img\\producto\\f7953941-7a54-4b98-8727-246896f9a6fb.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\js\\Maestros\\DataTableGenerico.js",
+      "PackagePath": "staticwebassets\\js\\Maestros\\DataTableGenerico.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\DESARROLLOS\\ConectandoTalentosSolucion\\ConectandoTalentos\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ConectandoTalentos.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ConectandoTalentos.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ConectandoTalentos.props",
+      "PackagePath": "build\\ConectandoTalentos.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ConectandoTalentos.props",
+      "PackagePath": "buildMultiTargeting\\ConectandoTalentos.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ConectandoTalentos.props",
+      "PackagePath": "buildTransitive\\ConectandoTalentos.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

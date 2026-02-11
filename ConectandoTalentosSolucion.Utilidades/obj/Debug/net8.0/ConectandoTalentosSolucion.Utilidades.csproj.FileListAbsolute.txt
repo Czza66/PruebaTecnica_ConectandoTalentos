@@ -1,0 +1,12 @@
+C:\Users\PC\Documents\DESARROLLOS\ConectandoTalentosSolucion\ConectandoTalentosSolucion.Utilidades\bin\Debug\net8.0\ConectandoTalentosSolucion.Utilidades.deps.json
+C:\Users\PC\Documents\DESARROLLOS\ConectandoTalentosSolucion\ConectandoTalentosSolucion.Utilidades\bin\Debug\net8.0\ConectandoTalentosSolucion.Utilidades.dll
+C:\Users\PC\Documents\DESARROLLOS\ConectandoTalentosSolucion\ConectandoTalentosSolucion.Utilidades\bin\Debug\net8.0\ConectandoTalentosSolucion.Utilidades.pdb
+C:\Users\PC\Documents\DESARROLLOS\ConectandoTalentosSolucion\ConectandoTalentosSolucion.Utilidades\obj\Debug\net8.0\ConectandoTalentosSolucion.Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\DESARROLLOS\ConectandoTalentosSolucion\ConectandoTalentosSolucion.Utilidades\obj\Debug\net8.0\ConectandoTalentosSolucion.Utilidades.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\DESARROLLOS\ConectandoTalentosSolucion\ConectandoTalentosSolucion.Utilidades\obj\Debug\net8.0\ConectandoTalentosSolucion.Utilidades.AssemblyInfo.cs
+C:\Users\PC\Documents\DESARROLLOS\ConectandoTalentosSolucion\ConectandoTalentosSolucion.Utilidades\obj\Debug\net8.0\ConectandoTalentosSolucion.Utilidades.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\DESARROLLOS\ConectandoTalentosSolucion\ConectandoTalentosSolucion.Utilidades\obj\Debug\net8.0\ConectandoTalentosSolucion.Utilidades.dll
+C:\Users\PC\Documents\DESARROLLOS\ConectandoTalentosSolucion\ConectandoTalentosSolucion.Utilidades\obj\Debug\net8.0\refint\ConectandoTalentosSolucion.Utilidades.dll
+C:\Users\PC\Documents\DESARROLLOS\ConectandoTalentosSolucion\ConectandoTalentosSolucion.Utilidades\obj\Debug\net8.0\ConectandoTalentosSolucion.Utilidades.pdb
+C:\Users\PC\Documents\DESARROLLOS\ConectandoTalentosSolucion\ConectandoTalentosSolucion.Utilidades\obj\Debug\net8.0\ref\ConectandoTalentosSolucion.Utilidades.dll
+C:\Users\PC\Documents\DESARROLLOS\ConectandoTalentosSolucion\ConectandoTalentosSolucion.Utilidades\obj\Debug\net8.0\ConectandoTalentosSolucion.Utilidades.csproj.AssemblyReference.cache

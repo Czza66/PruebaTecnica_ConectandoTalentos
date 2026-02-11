@@ -1,0 +1,136 @@
+﻿@model ConectandoTalentosSolucion.Models.ViewModels.Crud.Categoria.CategoriaCrearEditarVM
+@{
+    ViewData["Title"] = "Crear categoria";
+}
+<br />
+<h3 class="text-center">Crear una nueva categoria</h3>
+
+<form method="POST" asp-action="Create" enctype="multipart/form-data">
+    <div class="container p-4 ">
+
+        <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+        <div class="form-group row mb-4">
+            <div class="col-md-6">
+                <label for="subidaArchivoCategoria" class="form-label">Seleccionar imagen</label>
+                <input type="file"
+                       asp-for="imgCategoria"
+                       id="subidaArchivoCategoria"
+                       class="form-control"
+                       accept="image/*"
+                       onchange="mostrarVistaPrevia(this)"/>
+                <small class="text-muted">Formatos permitidos: JPG, PNG</small>
+            </div>
+            <div class="col-md-6 text-center">
+                <label class="form-label">Vista previa imagen cargada</label>
+                <div class="border rounded p-2"
+                     style="height: 250px; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+                    <img id="vistaPrevia"
+                         src="~/img/categoria/SliderPlaceholder.png"
+                         alt="Vista previa"
+                         style="max-height: 180px; max-width: 100%; object-fit: contain; border-radius: 8px;" />
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="nombre" class="form-label"></label>
+            <input asp-for="nombre" type="text" class="form-control" placeholder="Nombre de la categoria" />
+            <span asp-validation-for="nombre" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="descripcion" class="form-label"></label>
+            <textarea asp-for="descripcion" class="form-control" id="Descripcion"></textarea>
+            <span asp-validation-for="descripcion" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="orden" class="form-label"></label>
+            <input asp-for="orden" type="number" class="form-control" placeholder="1,2,3...100" />
+            <span asp-validation-for="orden" class="text-danger"></span>
+        </div>
+        <div class="mt-4">
+            <partial name="_VistaCrearVolver" />
+        </div>
+    </div>
+</form>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+        $.validator.setDefaults({
+            ignore: ""
+        });
+    </script>
+
+    <!-- TinyMCE -->
+    <script src="https://cdn.tiny.cloud/1/y69idvrvyyn87zpwi4uqq2ib8tl23hhy80bvlrz0w5h89nfg/tinymce/8/tinymce.min.js"
+            referrerpolicy="origin" crossorigin="anonymous"></script>
+
+    <script>
+        tinymce.init({
+            selector: '#Descripcion',
+            height: 300,
+            menubar: false,
+            plugins: [
+                'anchor','autolink','charmap','codesample','emoticons',
+                'link','lists','media','table','visualblocks','wordcount'
+            ],
+            toolbar:
+                'undo redo | blocks | bold italic underline forecolor backcolor | ' +
+                'alignleft aligncenter alignright | bullist numlist | code removeformat',
+            branding: false,
+            content_style: 'body { font-family:Helvetica,Arial,sans-serif; font-size:14px }',
+
+            setup: function (editor) {
+
+                const syncAndValidate = function () {
+                    editor.save();
+                    const $textarea = $('#Descripcion');
+                    if ($textarea.length && $textarea.valid) {
+                        $textarea.valid();
+                    }
+                };
+
+                editor.on('change keyup blur', syncAndValidate);
+            }
+        });
+    </script>
+
+    <script>
+        document.querySelector('form')?.addEventListener('submit', function () {
+            if (tinymce) {
+                tinymce.triggerSave();
+            }
+        });
+    </script>
+
+    <script>
+        function mostrarVistaPrevia(input) {
+            const vistaPrevia = document.getElementById('vistaPrevia');
+
+            if (input.files && input.files[0]) {
+                const archivo = input.files[0];
+
+                // Validar tipo de archivo
+                if (!archivo.type.startsWith("image/")) {
+                    alert("Por favor selecciona un archivo de imagen válido.");
+                    input.value = "";
+                    vistaPrevia.src = "~/img/categoria/SliderPlaceholder.png";
+                    infoImagen.innerHTML = "";
+                    return;
+                }
+
+                const lector = new FileReader();
+                lector.onload = function (e) {
+                    vistaPrevia.src = e.target.result;
+                };
+
+                lector.readAsDataURL(archivo);
+            } else {
+                vistaPrevia.src = "/img/placeholder.png";
+                infoImagen.innerHTML = "";
+            }
+        }
+    </script>
+
+}

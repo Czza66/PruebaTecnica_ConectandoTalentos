@@ -1,0 +1,99 @@
+﻿@using ConectandoTalentosSolucion.Models
+@using ConectandoTalentosSolucion.Models.ViewModels.Login
+@model RegistroVM
+
+@{
+    ViewData["Title"] = "Registro";
+}
+<div class="row">
+    <div class="col-md-12">
+        <section>
+            <form asp-controller="Login" asp-action="Registro" method="post">
+                <h2>Crea una cuenta nueva.</h2>
+                <hr />
+
+                <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5 class="mb-3">Información personal</h5>
+
+                        <div class="form-floating mb-3">
+                            <input asp-for="Nombre1" class="form-control" placeholder="Primer Nombre" />
+                            <label asp-for="Nombre1">Primer Nombre</label>
+                            <span asp-validation-for="Nombre1" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input asp-for="Nombre2" class="form-control" placeholder="Segundo Nombre" />
+                            <label asp-for="Nombre2">Segundo Nombre</label>
+                            <span asp-validation-for="Nombre2" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input asp-for="Apellido1" class="form-control" placeholder="Primer Apellido" />
+                            <label asp-for="Apellido1">Primer Apellido</label>
+                            <span asp-validation-for="Apellido1" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input asp-for="Apellido2" class="form-control" placeholder="Segundo Apellido" />
+                            <label asp-for="Apellido2">Segundo Apellido</label>
+                            <span asp-validation-for="Apellido2" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input asp-for="Direccion" class="form-control" placeholder="Cra 18 v vis #...." />
+                            <label asp-for="Direccion">Direccion</label>
+                            <span asp-validation-for="Direccion" class="text-danger"></span>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input asp-for="Ciudad" class="form-control" placeholder="Bogota" />
+                            <label asp-for="Ciudad">Ciudad</label>
+                            <span asp-validation-for="Ciudad" class="text-danger"></span>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input asp-for="NumeroDocumento" class="form-control" placeholder="123" />
+                            <label asp-for="NumeroDocumento">NumeroDocumento</label>
+                            <span asp-validation-for="NumeroDocumento" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <!-- COLUMNA DERECHA -->
+                    <div class="col-md-6">
+                        <h5 class="mb-3">Credenciales</h5>
+
+                        <div class="form-floating mb-3">
+                            <input asp-for="Email" class="form-control" autocomplete="username" placeholder="correo@ejemplo.com" />
+                            <label asp-for="Email">Correo</label>
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input asp-for="Password" class="form-control" autocomplete="new-password" placeholder="Contraseña" />
+                            <label asp-for="Password">Contraseña</label>
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input asp-for="ComfirmPassword" class="form-control" autocomplete="new-password" placeholder="Confirmar contraseña" />
+                            <label asp-for="ComfirmPassword">Confirmar contraseña</label>
+                            <span asp-validation-for="ComfirmPassword" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center">
+                    <a asp-controller="Login" asp-action="Index" class="text-decoration-none text-muted">Ya tienes una cuenta </a><br />
+                </p>
+
+                <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">
+                    Registrarse
+                </button>
+            </form>
+        </section>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
